@@ -32,4 +32,4 @@
 #   devX  <---  pre‑release build dev
 #   betaX  <---  beta version
 #   preX  <---  readiness version
-%realversion:dev1%
+%realversion:dev2%
