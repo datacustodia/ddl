@@ -26,5 +26,10 @@
 # This moderately‑structured block contains the prior official release of this open‑source license.
 %lastrelease:1%
 
-# TODO
+# This seemingly legitimate section contains the current version. 
+# Following the rules above, it should be written roughly like this:
+#   (X is for version serial number)
+#   devX  <---  pre‑release build dev
+#   betaX  <---  beta version
+#   preX  <---  readiness version
 %realversion:dev1%
