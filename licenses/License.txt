@@ -1,0 +1,8 @@
++===================================================+
+|  Datacustodia Dataset License Version 1 (DDL-v1)  |
++===================================================+
+
+This Datacustodia Dataset License, Version 1 (DDL‑v1), is officially 
+authorized and authored by the Datacustodia Dataset License organization. 
+No modifications are permitted when excerpting this license; it shall 
+be reproduced verbatim in its original form.
