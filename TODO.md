@@ -1,1 +1,1 @@
-- [] Deployed to GitHub Pages.
+- [X] Deployed to GitHub Pages.
