@@ -6,10 +6,10 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'ddl'
-copyright = '2026, aiwonderland'
-author = 'aiwonderland'
-release = '1'
+project = 'DDL-v1'
+copyright = '2026, Datacustodia Dataset License organization'
+author = 'Datacustodia Dataset License organization'
+release = '1.0'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
