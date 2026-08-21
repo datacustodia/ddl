@@ -89,7 +89,7 @@ material, confirm the following:
 
 ---
 
-## 6. Commercial Licensing
+## 4. Commercial Licensing
 
 To request a commercial license, contact the Datacustodia Dataset
 License organization and provide:
@@ -105,7 +105,7 @@ executed and any agreed consideration is paid or secured.
 
 ---
 
-## 7. Notes on Integrity
+## 5. Notes on Integrity
 
   - The License text in `licenses/License.txt` must be reproduced
     verbatim when excerpted or distributed; only non-substantive

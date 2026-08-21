@@ -6,7 +6,7 @@ and adapt a dataset for non-commercial purposes, as long as they give
 attribution — commercial use requires separate written permission.
 
 The authoritative license text lives in
-[`licenses/License.txt`](https://github.com/aiwonderland/ddl/blob/master/licenses/License.txt)
+[`licenses/License.txt`](https://github.com/datacustodia/ddl/blob/master/licenses/License.txt)
 in the source repository. These pages are a plain-language companion;
 if anything here disagrees with the license text, the license text wins.
 
