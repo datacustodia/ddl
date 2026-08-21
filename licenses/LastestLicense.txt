@@ -1,0 +1,1168 @@
++===================================================+
+|  Datacustodia Dataset License Version 1 (DDL-v1)  |
++===================================================+
+
+Version: 1.0
+
+================================================================
+This constitutes only the most recent development version 
+and not the latest stable release.
+================================================================
+
+This Datacustodia Dataset License, Version 1 (DDL-v1) (the "License")
+is officially authorized and authored by the Datacustodia Dataset
+License organization (the "Licensor"). No modifications are permitted
+when excerpting this License; it shall be reproduced verbatim in its
+original form. Any accompanying packaging, labels, marketing materials
+or notices may identify the Licensed Material and reference this
+License without otherwise altering its terms.
+
+================================================================
+                          PREAMBLE
+================================================================
+
+The Licensor intends this License to provide a clear, standardized
+framework for the non-commercial reuse of curated datasets while
+preserving attribution to the original contributors and ensuring
+that any commercial exploitation remains subject to separate
+written negotiation.
+
+By exercising any of the Licensed Rights (defined below), You
+accept and agree to be bound by the terms and conditions of this
+License. To the extent this License may be interpreted as a
+contract, You are granted the Licensed Rights in consideration of
+Your acceptance of these terms and conditions, and the Licensor
+grants You such rights in consideration of benefits the Licensor
+receives from making the Licensed Material available under these
+terms and conditions.
+
+This License is built upon five mandatory requirements:
+
+  (i)   a free, non-exclusive, irrevocable right of use worldwide;
+  (ii)  the right to copy, distribute, adapt and process the
+        dataset solely for non-commercial purposes;
+  (iii) a mandatory attribution obligation in any publicly-
+        released usage scenario;
+  (iv)  a prohibition on commercial use absent prior written
+        permission from the copyright holder; and
+  (v)   the verbatim reproduction of this License text when it
+        is excerpted, referenced or distributed alongside the
+        Licensed Material.
+
+The Licensor reserves all rights not expressly granted under this
+License. Nothing in this License shall be construed to waive,
+sublicense, assign or otherwise transfer any right, title or
+interest in or to the Licensed Material beyond what is explicitly
+stated herein.
+================================================================
+                     SECTION 1 -- DEFINITIONS
+================================================================
+
+For the purposes of this License, the following capitalized terms
+shall have the meanings ascribed to them below:
+
+  a. "Adapted Material" means any work, in any form, that is
+     derived from, based upon, or incorporates the Licensed
+     Material, in whole or in part, including translations,
+     schema changes, transformations, reformatting, enrichment,
+     cleaning, aggregation with other data, or any other
+     modification that produces a substantially new dataset.
+
+  b. "Attribution" means the credit line, citation, notice or
+     other designation identifying the Licensor, the title of
+     the Licensed Material, the version label of this License
+     (DDL-v1) and, where practicable, a Uniform Resource
+     Identifier (URI) pointing to the source of the Licensed
+     Material.
+
+  c. "Commercial Use" means any use of the Licensed Material,
+     in whole or in part, that is primarily intended for or
+     directed toward commercial advantage or monetary
+     compensation. Commercial Use expressly includes, without
+     limitation:
+
+       1. use by a for-profit entity in the ordinary course
+          of its business;
+       2. incorporation of the Licensed Material into a
+          product or service that is sold, licensed,
+          sub-licensed, hosted for fee or otherwise made
+          available for monetary consideration;
+       3. use of the Licensed Material to provide paid
+          consulting, training, advisory, support or
+          evaluation services;
+       4. use of the Licensed Material for advertising,
+          sponsorship, native promotion, lead generation
+          or marketing activities, whether direct or
+          indirect; and
+       5. use of the Licensed Material within or in
+          connection with internal research and development
+          activities of a commercial organization where
+          the resulting output is intended for commercial
+          exploitation, except to the extent such use is
+          expressly permitted by Section 2.
+
+  d. "Dataset" means the structured collection of data
+     distributed under this License, whether in tabular,
+     hierarchical, graph, text, image, audio, video, vector,
+     embedding or any other machine-readable form, together
+     with any associated metadata, schema definitions,
+     documentation, README files, configuration files and
+     auxiliary materials distributed together with that
+     collection.
+
+  e. "Licensed Material" means the Dataset, the Adapted
+     Material (where the context so requires) and any related
+     documentation that the Licensor has placed under this
+     License, in each case as made available by the Licensor.
+
+  f. "Licensed Rights" means the rights granted to You under
+     this License, which are limited to all copyright and
+     related rights subsisting in the Licensed Material that
+     the Licensor has authority to license, as well as any
+     sui generis database rights that apply to the Licensed
+     Material.
+
+  g. "Licensor" means the Datacustodia Dataset License
+     organization, identified above as the author and
+     steward of this License, together with any successor
+     entity expressly designated by it.
+
+  h. "Non-Commercial Purpose" means any use that is not a
+     Commercial Use, including, without limitation, personal
+     study, academic research, teaching, scholarly
+     publication in non-fee-based venues, journalistic
+     reporting in non-commercial outlets, artistic
+     expression, evaluation by non-profit organizations,
+     open-source software development for non-commercial
+     distribution, and government or public-sector use.
+
+  i. "Publicly Released Usage Scenario" means any use of the
+     Licensed Material, in whole or in part, that is
+     disseminated, published, made available, posted,
+     uploaded, exhibited or otherwise communicated to any
+     third party, whether on its own or as part of a
+     derivative work, model, application or service.
+
+  j. "Sui Generis Database Rights" means rights other than
+     copyright subsisting in databases, including, where
+     applicable, the right to prevent extraction and
+     reutilization of the whole or a substantial part of
+     the contents of a database, as recognized under any
+     applicable national or regional law.
+
+  k. "You" means any individual or legal entity exercising
+     Licensed Rights under this License. "Your" has a
+     corresponding meaning.
+================================================================
+                SECTION 2 -- SCOPE OF LICENSED RIGHTS
+================================================================
+
+Subject to the terms and conditions of this License, and
+without prejudice to Section 4 (Restrictions on Commercial
+Use) and Section 5 (Attribution Requirements), the Licensor
+hereby grants to You a worldwide, royalty-free,
+non-exclusive, irrevocable (subject only to the termination
+provisions of Section 7) license to exercise the following
+Licensed Rights in the Licensed Material, but solely for
+Non-Commercial Purposes:
+
+  a. to reproduce the Licensed Material, in whole or in part,
+     including by downloading, caching, mirroring, copying
+     or otherwise storing it;
+
+  b. to share, publish, distribute, transmit, publicly
+     display, publicly perform, broadcast and otherwise
+     communicate to the public the Licensed Material, in
+     whole or in part, including by means of any medium
+     and through any distribution channel;
+
+  c. to translate, adapt, rearrange, transform, modify,
+     extend, subset, sample, aggregate, normalize, clean,
+     annotate, label, redact and otherwise create Adapted
+     Material based upon the Licensed Material, in whole
+     or in part;
+
+  d. to process, mine, analyze, query, model, train,
+     fine-tune, evaluate or otherwise use the Licensed
+     Material as input to computational, statistical,
+     machine-learning, deep-learning or knowledge-graph
+     workflows, provided that the resulting artifacts
+     (including model parameters, embeddings, derived
+     statistics, or visualizations) are not Commercial
+     Use outputs unless separately licensed under
+     Section 4; and
+
+  e. to extract and reutilize the Licensed Material, in
+     whole or in part, for the purpose of integrating its
+     contents with other independently obtained datasets,
+     subject always to the attribution obligation set
+     forth in Section 5.
+
+The foregoing license includes the grant of Sui Generis
+Database Rights to the extent such rights are necessary
+for You to exercise the Licensed Rights enumerated above.
+The license is granted for the duration of the term of
+copyright and any applicable Sui Generis Database Rights
+in the Licensed Material, and shall extend to any
+jurisdiction in which such rights subsist.
+
+================================================================
+             SECTION 3 -- PERMITTED NON-COMMERCIAL USE
+================================================================
+
+Without limiting the generality of Section 2, the Licensor
+recognizes the following illustrative Non-Commercial
+Purposes for which the Licensed Material may be exercised
+under this License. This enumeration is non-exhaustive and
+is provided for clarity only:
+
+  a. Academic and Scientific Research. Use by individual
+     researchers, students, faculty and staff of accredited
+     academic institutions, research institutes, government
+     laboratories, intergovernmental organizations and
+     recognized non-profit scientific bodies, in each case
+     solely for the purpose of producing scholarly output
+     that is not itself a Commercial Use.
+
+  b. Education and Teaching. Use in classroom instruction,
+     textbooks, course materials, lectures, tutorials,
+     workshops and other educational contexts, where no
+     direct fee is charged to access the Licensed Material
+     itself beyond standard institutional tuition or
+     workshop registration.
+
+  c. Open-Source Software Development. Use as input to,
+     test fixture for, or integration target of, software
+     released under an OSI-approved open-source license
+     and distributed without commercial restrictions
+     inconsistent with this License.
+
+  d. Personal Study and Hobby Projects. Use by individuals
+     for personal learning, experimentation and
+     non-commercial creative expression.
+
+  e. Non-Profit Advocacy and Journalism. Use by registered
+     non-profit organizations and by independent
+     journalists working for non-commercial news
+     organizations, for editorial, investigative and
+     informational purposes.
+
+  f. Government and Public Sector Use. Use by federal,
+     state, municipal and supranational governmental
+     bodies in the discharge of their public functions,
+     where no Commercial Use is thereby generated.
+
+For the avoidance of doubt, any of the activities described
+in Section 3(a) through 3(f) that is undertaken by or for
+a for-profit entity primarily for the purpose of developing
+a commercial product, service or offering shall not be
+deemed a Non-Commercial Purpose.
+================================================================
+          SECTION 4 -- RESTRICTIONS ON COMMERCIAL USE
+================================================================
+
+  a. General Prohibition. The Licensed Material may not be
+     used, in whole or in part, for any Commercial Use
+     without the prior written permission of the Licensor.
+     Any Commercial Use conducted without such prior
+     written permission shall constitute a material breach
+     of this License and shall entitle the Licensor to
+     terminate Your Licensed Rights pursuant to Section 7.
+
+  b. Sui Generis Carve-Out. Notwithstanding Section 4(a),
+     extraction and reutilization of insubstantial parts
+     of the contents of the Licensed Material for
+     verification, citation, interoperability or
+     non-commercial commentary purposes shall not, of
+     itself, be deemed a Commercial Use.
+
+  c. Separate Licensing. To obtain a license for
+     Commercial Use, You must:
+
+       1. submit a written request to the Licensor
+          describing the intended Commercial Use, the
+          territory of operation, the expected volume of
+          use, the duration of use, and the form of the
+          Licensed Material involved;
+
+       2. negotiate in good faith the terms of a separate
+          written commercial license agreement; and
+
+       3. refrain from any Commercial Use until such
+          agreement is fully executed and any
+          consideration agreed therein is paid or
+          secured to the Licensor's reasonable
+          satisfaction.
+
+  d. No Implied Consent. Silence, inaction, or the public
+     availability of the Licensed Material under this
+     License shall not be construed as consent to
+     Commercial Use. The Licensor's decision whether to
+     grant a commercial license shall be exercised in the
+     Licensor's sole discretion.
+
+  e. Reservation of Statutory Rights. Nothing in this
+     Section 4 shall be construed to limit or override any
+     mandatory exception or limitation under applicable
+     copyright or database law that would otherwise permit
+     specific uses without the Licensor's authorization.
+
+================================================================
+            SECTION 5 -- ATTRIBUTION REQUIREMENTS
+================================================================
+
+  a. Mandatory Attribution. In any Publicly Released Usage
+     Scenario, You must provide Attribution to the
+     Licensor in a manner that is reasonable to the medium
+     and means of communication, and that is at least as
+     prominent as the attribution You provide for any
+     third-party material of comparable prominence within
+     the same work. The Attribution must include, where
+     reasonably practicable:
+
+       1. the title of the Licensed Material as designated
+          by the Licensor;
+
+       2. the version label of this License, namely
+          "Datacustodia Dataset License Version 1
+          (DDL-v1)";
+
+       3. a URI or hyperlink, where reasonably
+          practicable, pointing to the source from which
+          the Licensed Material was originally obtained;
+          and
+
+       4. an indication of any modifications made to the
+          Licensed Material, in the form of an Adapted
+          Material notice or equivalent.
+
+  b. Attribution in Adapted Material. Where You exercise
+     the right to create Adapted Material under Section
+     2(c), You must:
+
+       1. apply the Attribution to the Adapted Material
+          in a manner appropriate to its form and the
+          context of its distribution;
+
+       2. indicate clearly that the Adapted Material
+          has been modified from the original Licensed
+          Material, including by prefixing the title
+          with "Adapted from" or using an equivalent
+          formulation; and
+
+       3. retain any existing attribution notices
+          supplied with the Licensed Material and any
+          indication that downstream contributors have
+          been credited, where such notices appear in
+          the source files or schema.
+
+  c. Removal or Suppression. You may not impose any
+     technical or contractual measure that restricts
+     third parties from exercising the right to receive
+     Attribution in connection with the Licensed
+     Material, except to the extent such measure is
+     required by applicable law.
+
+  d. No Endorsement. You may not suggest, directly or by
+     implication, that the Licensor, the Licensed
+     Material, or any contributor to the Licensed
+     Material endorses You, Your use of the Licensed
+     Material, or any product, service, application or
+     output derived from the Licensed Material.
+================================================================
+            SECTION 6 -- VERBATIM REPRODUCTION
+================================================================
+
+  a. License Integrity. When this License is reproduced,
+     excerpted, referenced or distributed alongside the
+     Licensed Material, whether in whole or in part, it
+     must be reproduced verbatim in its original form.
+     No modification, addition, deletion, translation or
+     reformatting of the substantive provisions of this
+     License is permitted.
+
+  b. Permissible Accompanying Notices. Nothing in this
+     Section 6 shall be construed to prohibit the
+     inclusion, alongside the verbatim text of this
+     License, of:
+
+       1. notices identifying the Licensed Material to
+          which the License applies;
+
+       2. notices identifying the version label of the
+          Licensed Material or its distribution
+          channel; and
+
+       3. non-substantive formatting changes that do not
+          alter the meaning of any provision, such as
+          page-break or column adjustments.
+
+================================================================
+        SECTION 7 -- TERM, TERMINATION AND REINSTATEMENT
+================================================================
+
+  a. Term. This License shall apply for the duration of
+     the term of copyright and any applicable Sui Generis
+     Database Rights subsisting in the Licensed Material.
+
+  b. Automatic Termination. Your Licensed Rights shall
+     terminate automatically upon:
+
+       1. any breach of the attribution requirements
+          set forth in Section 5 that is not cured
+          within thirty (30) days of Your discovery of
+          the breach; or
+
+       2. any Commercial Use undertaken without the
+          prior written permission of the Licensor in
+          violation of Section 4.
+
+  c. Reinstatement. Where Your Licensed Rights have been
+     terminated under Section 7(b), they shall
+     reinstate:
+
+       1. automatically as of the date the breach is
+          cured, provided it is cured within thirty
+          (30) days of Your discovery of the breach;
+          or
+
+       2. upon express written reinstatement granted
+          by the Licensor in the Licensor's sole
+          discretion.
+
+  d. Effect of Termination. Upon termination of Your
+     Licensed Rights under Section 7(b), You must
+     immediately cease all further exercise of the
+     Licensed Rights and shall, to the extent
+     reasonably practicable, remove or destroy any
+     copies of the Licensed Material then in Your
+     possession or control. For the avoidance of
+     doubt, this Section 7(d) does not affect any
+     right the Licensor may have to seek remedies for
+     Your violations of this License.
+
+  e. Survival. Sections 5 (Attribution Requirements),
+     8 (Disclaimer of Warranties and Limitation of
+     Liability) and 9 (Other Terms and Conditions)
+     shall survive any termination of this License.
+================================================================
+      SECTION 8 -- DISCLAIMER OF WARRANTIES AND LIMITATION
+                          OF LIABILITY
+================================================================
+
+  a. Disclaimer of Warranties. The Licensed Material is
+     provided "as is" and "as available". The Licensor
+     makes no representation or warranty of any kind,
+     express or implied, with respect to the Licensed
+     Material, including, without limitation, any
+     warranty of:
+
+       1. merchantability, fitness for a particular
+          purpose, non-infringement of third-party
+          rights, or quiet enjoyment; or
+
+       2. accuracy, completeness, timeliness, currency,
+          reliability, freedom from error, or fitness
+          of the Licensed Material for any particular
+          research, training or operational objective.
+
+  b. No Duty to Update. The Licensor shall be under no
+     obligation to update, correct, supplement, augment
+     or otherwise revise the Licensed Material, nor to
+     notify You of any errors, omissions or changes
+     therein.
+
+  c. Limitation of Liability. To the maximum extent
+     permitted by applicable law, in no event shall the
+     Licensor be liable to You or to any third party for
+     any direct, indirect, incidental, special,
+     consequential, exemplary or punitive damages
+     arising out of or in connection with the use of,
+     inability to use, or reliance upon the Licensed
+     Material, even if the Licensor has been advised of
+     the possibility of such damages.
+
+  d. Indemnification by You. You shall indemnify, defend
+     and hold harmless the Licensor and any contributor
+     to the Licensed Material from and against any and
+     all third-party claims, liabilities, losses, damages
+     and expenses (including reasonable legal fees)
+     arising out of or in connection with Your breach of
+     this License or Your use of the Licensed Material.
+
+================================================================
+            SECTION 9 -- OTHER TERMS AND CONDITIONS
+================================================================
+
+  a. Entire Agreement. This License constitutes the
+     entire agreement between the Licensor and You
+     with respect to the Licensed Material and
+     supersedes all prior or contemporaneous
+     understandings, whether written or oral, on the
+     same subject matter.
+
+  b. Independent Obligations. Any arrangements,
+     understandings or agreements between You and any
+     third party regarding the Licensed Material,
+     including without limitation any agreements with
+     Your downstream recipients or collaborators,
+     shall be separate from and independent of this
+     License and shall not relieve You of Your
+     obligations hereunder.
+
+  c. No Waiver. No term or condition of this License
+     shall be waived and no failure to comply shall be
+     consented to, unless expressly agreed in writing
+     and signed by the Licensor.
+
+  d. Severability. If any provision of this License is
+     held by a court of competent jurisdiction to be
+     invalid, illegal or unenforceable, such provision
+     shall, to the extent permitted by applicable law,
+     be automatically reformed to the minimum extent
+     necessary to render it enforceable, and the
+     remaining provisions shall continue in full force
+     and effect.
+
+  e. No Implied License. Nothing in this License shall
+     be construed as granting, by implication, estoppel
+     or otherwise, any license or right to use any
+     trademark, service mark, trade name, logo or
+     branding of the Licensor or any contributor to
+     the Licensed Material, except as may be required
+     for the limited purpose of complying with the
+     Attribution requirements of Section 5.
+
+  f. Equitable Relief. The Licensor acknowledges that
+     monetary damages may be inadequate to remedy a
+     breach of this License, particularly a breach of
+     Section 4 (Restrictions on Commercial Use) or
+     Section 5 (Attribution Requirements). Accordingly,
+     the Licensor shall be entitled to seek injunctive
+     or other equitable relief in respect of any
+     actual or threatened breach, in addition to any
+     other remedies available at law or in equity.
+
+  g. Governing Law and Forum. This License shall be
+     governed by and construed in accordance with the
+     laws of the jurisdiction in which the Licensor is
+     established, without regard to its conflict-of-
+     laws principles. The parties consent to the
+     exclusive jurisdiction of the competent courts
+     located in such jurisdiction for the resolution
+     of any dispute arising out of or in connection
+     with this License, save to the extent mandatory
+     consumer-protection laws of Your habitual
+     residence apply.
+
+  h. Construction. Headings used in this License are
+     for convenience of reference only and shall not
+     affect the interpretation of any provision. Words
+     importing the singular include the plural and
+     vice versa, and words importing any gender
+     include all genders.
+
+================================================================
+SECTION 10 -- INTERNATIONAL USE AND MANDATORY LOCAL EXCEPTIONS
+================================================================
+
+  a. Worldwide Scope. The Licensed Rights granted under this
+     License are intended to be exercised in any country or
+     jurisdiction in which copyright, database rights or any
+     equivalent right subsists in the Licensed Material. The
+     Licensor intends the License to operate as a uniform
+     instrument regardless of the territory in which You
+     exercise the Licensed Rights.
+
+  b. Mandatory Local Exceptions. Nothing in this License is
+     intended to override, restrict or limit any mandatory
+     exception, limitation or compulsory license that is
+     afforded to You under the copyright or database law of
+     the country in which You are habitually resident,
+     including, without limitation, fair use, fair dealing,
+     quotation rights, library and archival exceptions,
+     educational use exceptions, provisions for persons with
+     disabilities, text-and-data mining exceptions introduced
+     for research purposes, and any analogous doctrine of
+     comparable scope.
+
+  c. Coordination of Remedies. Where the law of multiple
+     jurisdictions is applicable to a single act of exercise
+     of the Licensed Rights, the remedy afforded under this
+     License shall be the maximum cumulative remedy permitted
+     by all applicable laws, but in no event shall the
+     Licensor be required to grant rights greater than those
+     set forth in this License.
+
+  d. Public Domain Materials. Where any portion of the
+     Licensed Material is, by operation of applicable law,
+     in the public domain in a particular jurisdiction, that
+     portion may be used in that jurisdiction without regard
+     to the conditions of this License, but only insofar as
+     the public-domain status of that portion is recognized
+     under the law of that jurisdiction.
+
+================================================================
+  SECTION 11 -- PRIVACY, PERSONAL DATA AND SENSITIVE CONTENT
+================================================================
+
+  a. No Warranted Lawful Basis. The Licensor does not
+     represent or warrant that the Licensed Material is free
+     from personal data, pseudonymous identifiers, biometric
+     information, health data, location data, or any other
+     information that is subject to privacy, data protection
+     or sector-specific regulation under applicable law. The
+     Licensor's grant of Licensed Rights is conditional upon
+     Your compliance with all such laws.
+
+  b. Your Responsibility. You are solely responsible for:
+
+       1. determining whether the Licensed Material contains
+          personal data, sensitive personal data, or any
+          similar category of regulated information;
+
+       2. identifying the lawful basis on which You process
+          such data for Non-Commercial Purposes, including
+          any requirement to obtain consent, provide notice
+          or conduct a data protection impact assessment;
+
+       3. implementing appropriate technical and
+          organisational measures to safeguard such data,
+          including pseudonymisation, minimisation, access
+          controls and retention policies; and
+
+       4. honouring the rights of data subjects, including
+          rights of access, rectification, erasure,
+          restriction, portability and objection, to the
+          extent those rights apply to Your use of the
+          Licensed Material.
+
+  c. Sensitive Content Carve-Out. Notwithstanding any other
+     provision of this License, You shall not use the
+     Licensed Material to profile, target, surveil, single
+     out, rank, classify, discriminate against, or
+     otherwise adversely affect any natural person, nor to
+     build, train or evaluate any system whose primary
+     purpose is the foregoing. This Section 11(c) is a
+     material condition of the License and any breach of it
+     shall entitle the Licensor to immediate termination
+     under Section 7.
+
+  d. Children's Data. You shall not knowingly use any
+     portion of the Licensed Material that, to Your
+     knowledge, contains personal data of children under
+     the age of majority in their jurisdiction of residence,
+     in any manner inconsistent with applicable child
+     protection law.
+
+  e. No Joint Controllership. The exercise of Licensed
+     Rights does not, of itself, create a relationship of
+     joint controllership, processor-ship or otherwise
+     between You and the Licensor. Each party shall remain
+     an independent controller of any personal data it
+     processes.
+
+================================================================
+ SECTION 12 -- THIRD-PARTY RIGHTS AND UNDERLYING MATERIALS
+================================================================
+
+  a. Third-Party Ownership. The Licensed Material may
+     incorporate, embed or be derived from materials in
+     which third parties hold copyright, database rights,
+     patent rights, trademark rights or other intellectual
+     property rights. The Licensor does not represent or
+     warrant that the Licensor holds, has licensed, or can
+     sublicense any right beyond the rights actually vested
+     in the Licensor at the time of distribution.
+
+  b. Subset Distribution. Where You distribute only a subset
+     of the Licensed Material, You remain responsible for
+     ensuring that the subset You distribute does not, of
+     itself, infringe any third-party right that may be
+     asserted against the Licensor or any contributor.
+
+  c. Linking and Reference. References in the Licensed
+     Material to third-party datasets, services, software
+     or documentation are provided for convenience only
+     and do not constitute an endorsement, sponsorship or
+     warranty by the Licensor. Any use of such referenced
+     resources shall be governed by the terms applicable
+     to those resources, and not by this License.
+
+  d. Third-Party Beneficiary. Where a contributor to the
+     Licensed Material has separately notified the
+     Licensor of a residual economic interest in the
+     Licensed Material, that contributor shall be deemed a
+     third-party beneficiary of this License solely with
+     respect to the rights expressly reserved to such
+     contributor in writing.
+
+================================================================
+    SECTION 13 -- MORAL RIGHTS AND CONTRIBUTOR RECOGNITION
+================================================================
+
+  a. Moral Rights. To the extent any moral rights,
+     droit moral, paternity rights, integrity rights or
+     analogous non-economic author rights subsist in any
+     portion of the Licensed Material, the Licensor waives,
+     or undertakes to procure the waiver of, such rights
+     solely to the extent necessary to permit the exercise
+     of the Licensed Rights described in Section 2, and
+     only for Non-Commercial Purposes.
+
+  b. Integrity of Attribution. Notwithstanding Section
+     13(a), no waiver of moral rights hereunder shall be
+     construed to permit distortion, mutilation, modification
+     or other derogatory treatment of the Licensed Material
+     that would prejudice the honour or reputation of any
+     author or contributor.
+
+  c. Contributor Recognition. Where the Licensed Material
+     includes an AUTHORS, CONTRIBUTORS or equivalent
+     metadata file, You shall preserve such file and the
+     contributor attributions recorded therein in any
+     redistribution or Adapted Material. Removal or
+     alteration of contributor names from such file, save
+     for the purpose of updating contact information at the
+     contributor's request, constitutes a breach of this
+     Section 13.
+
+  d. Naming Restrictions. You may not name, identify or
+     hold out any natural person as having authored,
+     endorsed or contributed to the Licensed Material
+     unless that person has been recorded as an author,
+     endorser or contributor in the source documentation
+     distributed by the Licensor.
+
+================================================================
+     SECTION 14 -- TECHNICAL PROTECTION MEASURES
+================================================================
+
+  a. Permitted Circumvention. Nothing in this License is
+     intended to prohibit circumvention of technological
+     protection measures ("TPMs") to the extent such
+     circumvention is expressly permitted under applicable
+     law for the purpose of exercising a lawful right to
+     use the Licensed Material under Section 2. The Licensor
+     acknowledges that TPMs may, in some jurisdictions,
+     restrict acts that are otherwise permitted by law.
+
+  b. No Mandated TPM. You are not required to apply any TPM
+     to copies of the Licensed Material that You hold or
+     distribute, except to the extent necessary to comply
+     with applicable law or with an express written
+     instruction of the Licensor.
+
+  c. No Removal of Notices. You shall not remove, alter or
+     obscure any copyright notice, attribution notice,
+     license reference, watermark or other machine-
+     or human-readable notice affixed by the Licensor to
+     the Licensed Material, save with the prior written
+     consent of the Licensor.
+
+================================================================
+  SECTION 15 -- EXPORT CONTROL AND SANCTIONS COMPLIANCE
+================================================================
+
+  a. Sanctions. You shall not exercise any of the
+     Licensed Rights in, or for the benefit of, any
+     individual, entity, territory or jurisdiction that is
+     the subject of comprehensive sanctions administered
+     by the United Nations, the European Union, the United
+     States of America, the United Kingdom, or any other
+     competent sanctions authority, except to the extent
+     such exercise is expressly authorised by a general
+     licence or specific licence issued by the competent
+     authority.
+
+  b. Export Control. The Licensed Material may be subject
+     to export control laws and regulations, including
+     those relating to encryption, dual-use technologies,
+     military end-uses and the transfer of regulated
+     technologies. You are solely responsible for
+     determining whether Your exercise of the Licensed
+     Rights requires any licence, notification or
+     authorisation under such laws, and for obtaining any
+     such licence, notification or authorisation prior to
+     such exercise.
+
+  c. Anti-Money-Laundering and Anti-Bribery. You shall
+     not exercise any of the Licensed Rights in furtherance
+     of any activity that would violate any applicable
+     anti-money-laundering, anti-bribery, anti-corruption
+     or counter-terrorism-financing law.
+
+  d. Indemnity Re-Statement. Without prejudice to Section
+     8(d), You shall indemnify the Licensor against any
+     liability, claim, fine or penalty arising out of Your
+     breach of this Section 15.
+
+================================================================
+ SECTION 16 -- AI/ML TRAINING, EMBEDDINGS AND MODEL OUTPUTS
+================================================================
+
+  a. Acknowledgement. The Licensor recognises that the
+     Licensed Material is likely to be used as input to
+     machine-learning, deep-learning, statistical and
+     knowledge-graph workflows. This Section 16 provides
+     specific rules for such use, in addition to the
+     general rules of Sections 2 through 5.
+
+  b. Permitted Non-Commercial Training. Subject to all
+     other terms of this License, You may use the
+     Licensed Material to train, fine-tune, evaluate,
+     distill, benchmark or otherwise develop a model,
+     embedding, statistical estimator or derived dataset
+     (collectively, a "Derived Model"), provided that:
+
+       1. the development of the Derived Model and any
+          subsequent use of its outputs is a
+          Non-Commercial Purpose;
+
+       2. Attribution is provided in the documentation,
+          model card, dataset card, README, system prompt
+          or equivalent disclosure made publicly available
+          alongside the Derived Model;
+
+       3. the Derived Model is not offered as a managed,
+          hosted, API-based or otherwise monetised service
+          that is positioned as a substitute for the
+          Licensed Material or for any commercial dataset
+          derived from the Licensed Material; and
+
+       4. You do not assert that the Derived Model is
+          "the Licensed Material" or that the Licensor
+          endorses the Derived Model or any output of it.
+
+  c. Outputs as Adapted Material. The outputs of a Derived
+     Model, including text, embeddings, vectors, generated
+     datasets and any other artefacts, are not, of
+     themselves, subject to this License, provided that:
+
+       1. the outputs do not, taken as a whole or in
+          substantial part, reproduce verbatim the
+          Licensed Material; and
+
+       2. the outputs are not presented or marketed as a
+          stand-in for the original Licensed Material in
+          a manner that would substitute for the
+          Licensed Material itself.
+
+  d. Generative Reproduction. For the avoidance of doubt,
+     nothing in this Section 16 permits the intentional
+     reproduction, regurgitation or memorisation of the
+     Licensed Material by a Derived Model in circumvention
+     of Section 4 or Section 5. Where such reproduction
+     occurs, You shall take reasonable steps to detect and
+     suppress it, having regard to the state of the art.
+
+================================================================
+ SECTION 17 -- MIRRORING, MIRRORS AND NOTICE OF WITHDRAWAL
+================================================================
+
+  a. Mirroring Encouraged. The Licensor encourages the
+     creation of mirrors, caches and derivative
+     distribution points for the Licensed Material, in
+     furtherance of the non-commercial reuse permitted by
+     Section 2. Each mirror operator shall be deemed a
+     "Further Distributor" for the purposes of Section 5.
+
+  b. Identity of Mirror. Each mirror, cache or derivative
+     distribution point shall clearly identify itself as a
+     mirror or derivative copy, the date on which it last
+     synchronised with the Licensor's reference copy, and
+     a working contact address for the mirror operator.
+
+  c. Notice of Withdrawal. The Licensor may, by publishing
+     a notice at the canonical distribution URL for the
+     Licensed Material, declare that a particular version
+     or release of the Licensed Material has been
+     withdrawn. Following such a notice:
+
+       1. further exercise of the Licensed Rights in
+          respect of the withdrawn version shall be
+          subject to a transitional period of ninety (90)
+          days, after which only the non-commercial
+          rights expressly preserved by this License
+          shall continue;
+
+       2. the withdrawal does not, of itself, terminate
+          this License as a whole, and does not affect
+          the exercise of the Licensed Rights in respect
+          of any later, non-withdrawn version of the
+          Licensed Material; and
+
+       3. the Licensor may, but is not required to,
+          publish a successor version that supersedes
+          the withdrawn version, in which case the
+          successor version shall, from the date of its
+          publication, be the canonical reference for
+          the obligations of this License.
+
+  d. Cooperation with Takedown. Each Further Distributor
+     shall, upon reasonable written request from the
+     Licensor, cooperate in good faith to remove or
+     quarantine the withdrawn version from public access
+     within the transitional period set forth in Section
+     17(c)(1).
+
+================================================================
+   SECTION 18 -- AUDIT RIGHTS, RECORDS AND COOPERATION
+================================================================
+
+  a. Records. Where Your exercise of the Licensed Rights
+     involves the redistribution of the Licensed Material
+     to third parties in a recurring or systematic manner,
+     You shall maintain reasonable records sufficient to
+     demonstrate Your compliance with this License,
+     including records of attribution provided, notices
+     preserved, and the volume and form of the Licensed
+     Material redistributed.
+
+  b. Audit Request. Upon thirty (30) days' prior written
+     notice from the Licensor, You shall, at the
+     Licensor's expense, permit an independent auditor of
+     national reputation to inspect Your records under
+     Section 18(a) during normal business hours, solely for
+     the purpose of verifying Your compliance with this
+     License.
+
+  c. Confidentiality. The Licensor shall procure that the
+     auditor is bound by obligations of confidentiality at
+     least as protective as those imposed on the Licensor
+     by Section 21. The auditor shall report its findings
+     to the Licensor only in aggregate or anonymised form,
+     save where a material breach is identified.
+
+  d. Cooperation. You shall cooperate with the Licensor in
+     any reasonable inquiry relating to Your compliance
+     with this License, including the prompt supply of
+     non-privileged information responsive to the
+     Licensor's written request.
+
+  e. Self-Audit. Nothing in this Section 18 limits Your
+     right to conduct self-audits or compliance reviews on
+     a more frequent basis.
+
+================================================================
+ SECTION 19 -- DISPUTE RESOLUTION, ARBITRATION AND CLASS WAIVER
+================================================================
+
+  a. Informal Resolution. The parties shall use reasonable
+     efforts to resolve any dispute arising out of or in
+     connection with this License through good-faith
+     negotiations for a period of not less than sixty
+     (60) days before initiating any formal proceeding.
+
+  b. Arbitration. Any dispute that is not resolved
+     pursuant to Section 19(a) shall, at the election of
+     either party, be finally settled by arbitration
+     administered by a recognised arbitral institution
+     seated in the jurisdiction set forth in Section
+     9(g), in accordance with its then-current rules.
+     Judgment upon the award rendered by the arbitrator(s)
+     may be entered in any court of competent
+     jurisdiction.
+
+  c. Interim Relief. Notwithstanding Section 19(b), either
+     party may seek interim or injunctive relief from a
+     court of competent jurisdiction at any time,
+     including before, during or after the period of
+     informal resolution or arbitration.
+
+  d. Class Action Waiver. To the maximum extent permitted
+     by applicable law, any arbitration or proceeding
+     shall be conducted on an individual, not class,
+     basis. The parties waive any right to assert claims
+     in a representative, class, collective or private
+     attorney-general capacity.
+
+  e. Limitation of Actions. Any claim arising out of or
+     in connection with this License must be filed within
+     two (2) years after the cause of action accrues, or
+     such longer period as is required by applicable
+     mandatory law. The parties waive any longer
+     limitation period that would otherwise apply.
+
+  f. Costs. Each party shall bear its own costs and
+     attorneys' fees in any dispute arising out of or
+     in connection with this License, save where a
+     party prevails on a claim under Section 4 or
+     Section 5, in which case the prevailing party
+     shall be entitled to recover reasonable
+     attorneys' fees.
+
+================================================================
+                SECTION 20 -- FORCE MAJEURE
+================================================================
+
+  a. Suspension of Obligations. Neither party shall be
+     liable for any failure or delay in performance of
+     any obligation under this License to the extent such
+     failure or delay is caused by a Force Majeure Event.
+
+  b. Definition. A "Force Majeure Event" means any event
+     beyond the reasonable control of the affected party,
+     including, without limitation, acts of God, natural
+     disasters, pandemics, epidemics, governmental
+     restrictions, war, terrorism, civil unrest, internet
+     or telecommunications outages not affecting the
+     affected party specifically, labour disputes, and
+     failures of third-party hosting, computing or
+     storage infrastructure.
+
+  c. Mitigation. The affected party shall use reasonable
+     efforts to mitigate the effect of the Force Majeure
+     Event and shall, as soon as reasonably practicable,
+     give written notice describing the event and its
+     expected duration to the other party.
+
+  d. Termination Right. If a Force Majeure Event
+     continues for more than ninety (90) consecutive
+     days, either party may terminate this License by
+     written notice to the other party without liability
+     save in respect of obligations accrued prior to the
+     Force Majeure Event.
+
+================================================================
+            SECTION 21 -- NOTICES, COMMUNICATIONS AND LANGUAGE
+================================================================
+
+  a. Form. Any notice, request, demand or other
+     communication required or permitted under this
+     License shall be in writing and shall be deemed
+     duly given when:
+
+       1. delivered personally;
+
+       2. sent by prepaid registered post or recognised
+          international courier, return receipt requested;
+          or
+
+       3. sent by email, with confirmation of receipt by
+          the addressee,
+
+     in each case addressed to the relevant party at the
+     address designated by that party in writing from
+     time to time.
+
+  b. Change of Address. Either party may change its
+     designated address by giving the other party
+     written notice in accordance with Section 21(a).
+
+  c. Language. The official language of this License is
+     English. Any translation of this License into
+     another language is provided for convenience only.
+     In case of any discrepancy or ambiguity between the
+     English text and any translation, the English text
+     shall prevail.
+
+  d. Public Notices. Public notices by the Licensor
+     (including notices of withdrawal under Section 17) shall be deemed
+     effective upon publication at the canonical
+     distribution URL for the Licensed Material.
+
+================================================================
+       ANNEX A -- APPROVED ATTRIBUTION FORMATS (INFORMATIVE)
+================================================================
+
+This Annex provides illustrative examples of Attribution that
+satisfy the requirements of Section 5. It is non-binding and
+provided for convenience only; in case of inconsistency, Section
+5 governs.
+
+  a. Software Source Header (illustrative):
+       /*
+        * Portions of this software incorporate data from
+        * "[Dataset Title]" by the Datacustodia Dataset License
+        * organization, distributed under the Datacustodia Dataset
+        * License Version 1 (DDL-v1). Source:
+        * <https://example.org/dataset>
+        */
+
+  b. README / NOTICE file entry (illustrative):
+       This product includes data from "[Dataset Title]"
+       (Datacustodia Dataset License Version 1 (DDL-v1)).
+       Source: <https://example.org/dataset>.
+
+  c. Academic citation (illustrative):
+       Datacustodia Dataset License organization. (YYYY).
+       [Dataset Title] (Version X.Y) [Data set]. Licensed
+       under Datacustodia Dataset License Version 1
+       (DDL-v1). <https://example.org/dataset>.
+
+  d. Adapted Material title prefix (illustrative):
+       "Adapted from [Dataset Title]" — to be used in
+       place of the original title when the Adapted
+       Material is distributed.
+
+  e. Model card entry (illustrative, in addition to
+     Section 16(b)(2)):
+       Training Data:
+         - [Dataset Title] (DDL-v1), <https://example.org/dataset>
+           Used for: [pretraining / fine-tuning / evaluation]
+           Modifications: [description]
+
+================================================================
+       ANNEX B -- COMPATIBILITY NOTES (INFORMATIVE)
+================================================================
+
+This Annex describes how the DDL-v1 License interacts with
+selected other open-source and open-data instruments. It is
+non-binding and provided for general orientation only; the
+Licensor does not warrant that any particular combination is
+lawful in any particular jurisdiction.
+
+  a. CC-BY 4.0. The DDL-v1 License is more restrictive
+     than Creative Commons Attribution 4.0 International
+     (CC-BY 4.0) because DDL-v1 limits use to
+     Non-Commercial Purposes. Material dual-licensed
+     under DDL-v1 and CC-BY 4.0 shall be deemed to be
+     under DDL-v1 only, in case of conflict.
+
+  b. CC-BY-NC 4.0. The DDL-v1 License is broadly
+     compatible in intent with CC-BY-NC 4.0, but contains
+     additional provisions relating to Sui Generis
+     Database Rights, AI/ML training, audits and dispute
+     resolution. The two licenses are not, of themselves,
+     compatible in the sense of being mutually
+     substitutable.
+
+  c. ODbL 1.0. The DDL-v1 License is broadly compatible
+     in intent with the Open Data Commons Open Database
+     License 1.0 (ODbL 1.0), subject to the additional
+     Non-Commercial Purpose limitation imposed by
+     Section 2 of DDL-v1.
+
+  d. Copyleft Open-Source Licenses. The DDL-v1 License
+     is a permissive, non-copyleft license. Its terms do
+     not impose any obligation on You to license Adapted
+     Material, downstream works or surrounding
+     application code under the same terms. You may, at
+     Your option, apply additional open-source licenses
+     to surrounding application code, provided that the
+     Licensed Material itself remains under DDL-v1.
+
+  e. Sui Generis Database Rights. Where the Licensed
+     Material is subject to Sui Generis Database Rights,
+     those rights are licensed to You on the same terms
+     and conditions as the copyright in the Licensed
+     Material, in accordance with Section 2 of this
+     License.
+
+  f. No Endorsement. Reference to any third-party license
+     or instrument in this Annex does not constitute an
+     endorsement, sponsorship or warranty by the
+     Licensor in respect of that license or instrument.
+
+================================================================
+                       END OF LICENSE TEXT
+================================================================
+
+For information about the Datacustodia Dataset License
+Version 1 (DDL-v1), please consult the official project
+documentation accompanying the Licensed Material. No
+modifications are permitted to the foregoing text; it
+must be reproduced verbatim in its original form when
+excerpted, referenced or distributed alongside the
+Licensed Material.
