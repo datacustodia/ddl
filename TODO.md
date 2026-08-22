@@ -1,1 +1,2 @@
 - [X] Deployed to GitHub Pages.
+- [X] ~~i18n~~ i10n support
