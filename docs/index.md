@@ -28,4 +28,8 @@ if anything here disagrees with the license text, the license text wins.
 
 guide
 commercial
+releases
+faq
+attribution
+glossary
 ```
