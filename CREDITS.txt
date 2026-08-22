@@ -1,0 +1,51 @@
+﻿================================================================
+        Datacustodia Dataset License Version 1 (DDL-v1)
+                        CREDITS
+================================================================
+
+This file credits the authors, contributors and other parties
+whose work has made this License and its accompanying
+documentation possible. It is published for informational
+purposes only and does not form part of the License itself.
+
+
+AUTHOR
+------
+
+The Datacustodia Dataset License, Version 1 (DDL-v1) was
+authored and is maintained by:
+
+  Evan Yang
+  <quantbit@126.com>
+
+under the auspices of the Datacustodia Dataset License
+organization.
+
+
+CONTRIBUTORS
+------------
+
+For an up-to-date list of named contributors to the License
+text and the surrounding documentation, see the top-level
+`CONTRIBUTORS` file in this repository.
+
+
+ACKNOWLEDGEMENTS
+----------------
+
+Portions of the LICENSE file in this repository reproduce text
+from Creative Commons Attribution 4.0 International (CC BY 4.0),
+made available by Creative Commons Corporation and used here
+as a reference basis for drafting DDL-v1. CC BY 4.0 is licensed
+to the public under the Creative Commons Attribution 4.0
+International Public License.
+
+
+COPYRIGHT
+---------
+
+Copyright (c) 2026 Evan Yang and the Datacustodia Dataset
+License organization. The License text and accompanying
+documentation are made available under the terms set out in
+the DDL-v1 License (see `licenses/License.txt`); this
+CREDITS file is provided for attribution purposes only.
