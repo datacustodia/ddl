@@ -1,3 +1,14 @@
 - [X] Deployed to GitHub Pages.
 - [ ] i18n support
     - [X] zh_CN
+    - [X] zh_TW
+    - [ ] zh_HK
+    - [X] en_US
+    - [ ] en_GB
+    - [ ] ja_JP
+    - [ ] ko_KR
+    - [ ] de_DE
+    - [ ] fr_FR
+    - [ ] es_ES
+    - [ ] pt_BR
+    - [ ] ru_RU
