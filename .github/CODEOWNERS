@@ -1,0 +1,28 @@
+# meta documentation
+README.md                                            @aiwonderland
+TODO.md                                              @aiwonderland
+LICENSE.txt                                          @aiwonderland
+CREDITS.txt                                          @aiwonderland
+CONTRIBUTING.md                                      @aiwonderland
+CODE_OF_CONDUCT.md                                   @aiwonderland
+CONTRIBUTORS                                         @aiwonderland
+
+# config files
+.gitignore                                           @aiwonderland
+
+# main documentation
+docs/                                                @aiwonderland
+
+# licenses
+licenses/README                                      @aiwonderland
+licenses/License.txt                                 @aiwonderland 
+licenses/LastestLicense.txt                          @aiwonderland
+licenses/LastestVersionNumber.txt                    @aiwonderland
+
+# license i18n support 
+licenses/i18n/README                                 @aiwonderland
+licenses/i18n/zn_CN/License.v1.txt                   @aiwonderland
+licenses/i18n/zh_TW/License.v1.txt                   @aiwonderland
+
+# github
+.github/                                             @aiwonderland

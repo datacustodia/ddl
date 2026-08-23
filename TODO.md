@@ -12,3 +12,14 @@
     - [ ] es_ES
     - [ ] pt_BR
     - [ ] ru_RU
+- [X] zh_CN's codeowner
+- [X] zh_TW's codeowner
+- [ ] zh_HK's codeowner
+- [ ] en_GB's codeowner
+- [ ] ja_JP's codeowner
+- [ ] ko_KR's codeowner
+- [ ] de_DE's codeowner
+- [ ] fr_FR's codeowner
+- [ ] es_ES's codeowner
+- [ ] pt_BR's codeowner
+- [ ] ru_RU's codeowner
