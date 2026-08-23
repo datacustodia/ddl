@@ -1,16 +1,18 @@
-+===================================================+
+﻿+===================================================+
 |  Datacustodia Dataset License Version 1 (DDL-v1)  |
 +===================================================+
 
-Version: 1.2
+Version: 1.3
 
 This Datacustodia Dataset License, Version 1 (DDL-v1) (the "License")
-is officially authorized and authored by the Datacustodia Dataset
-License organization (the "Licensor"). No modifications are permitted
-when excerpting this License; it shall be reproduced verbatim in its
-original form. Any accompanying packaging, labels, marketing materials
-or notices may identify the Licensed Material and reference this
-License without otherwise altering its terms.
+is officially authored and maintained as a license text by the Datacustodia
+Dataset License organization (the "DDLO"). The **Licensor** is the copyright
+holder of the Licensed Material; the DDLO is not the Licensor and does not
+accept applications for commercial licenses. No modifications are permitted
+when excerpting this License; it shall be reproduced verbatim in its original
+form. Any accompanying packaging, labels, marketing materials or notices
+may identify the Licensed Material and reference this License without
+otherwise altering its terms.
 
 ================================================================
                           PREAMBLE
@@ -117,12 +119,28 @@ shall have the meanings ascribed to them below:
      sui generis database rights that apply to the Licensed
      Material.
 
-  g. "Licensor" means the Datacustodia Dataset License
-     organization, identified above as the author and
-     steward of this License, together with any successor
-     entity expressly designated by it.
+  g. "Licensor" means the **copyright holder** of the Licensed
+     Material, that is, the natural person or legal entity that
+     owns the copyright and (where applicable) the Sui Generis
+     Database Rights in the Licensed Material and that has
+     authority to grant the Licensed Rights under this License,
+     together with any successor entity expressly designated
+     by the copyright holder. The Licensor is the copyright
+     holder; the Licensor is not the same as, and is not
+     represented by, the **Datacustodia Dataset License
+     organization** (defined below).
 
-  h. "Non-Commercial Purpose" means any use that is not a
+  h. "Datacustodia Dataset License organization" means the
+     organization that authored, maintains and publishes the
+     text of this License (DDL-v1). The Datacustodia Dataset
+     License organization is **not** the Licensor, is **not**
+     the copyright holder of any Licensed Material distributed
+     under this License, and **does not accept applications
+     for commercial licenses** or otherwise act on behalf of
+     any Licensor. The Datacustodia Dataset License
+     organization is solely the steward of the License text.
+
+  i. "Non-Commercial Purpose" means any use that is not a
      Commercial Use, including, without limitation, personal
      study, academic research, teaching, scholarly
      publication in non-fee-based venues, journalistic
@@ -131,21 +149,21 @@ shall have the meanings ascribed to them below:
      open-source software development for non-commercial
      distribution, and government or public-sector use.
 
-  i. "Publicly Released Usage Scenario" means any use of the
+  j. "Publicly Released Usage Scenario" means any use of the
      Licensed Material, in whole or in part, that is
      disseminated, published, made available, posted,
      uploaded, exhibited or otherwise communicated to any
      third party, whether on its own or as part of a
      derivative work, model, application or service.
 
-  j. "Sui Generis Database Rights" means rights other than
+  k. "Sui Generis Database Rights" means rights other than
      copyright subsisting in databases, including, where
      applicable, the right to prevent extraction and
      reutilization of the whole or a substantial part of
      the contents of a database, as recognized under any
      applicable national or regional law.
 
-  k. "You" means any individual or legal entity exercising
+  l. "You" means any individual or legal entity exercising
      Licensed Rights under this License. "Your" has a
      corresponding meaning.
 ================================================================
@@ -301,6 +319,19 @@ deemed a Non-Commercial Purpose.
      mandatory exception or limitation under applicable
      copyright or database law that would otherwise permit
      specific uses without the Licensor's authorization.
+
+  f. Where to Apply. Applications for a separate commercial
+     license shall be directed to the **Licensor** (the
+     copyright holder of the Licensed Material), not to
+     the Datacustodia Dataset License organization. The
+     Datacustodia Dataset License organization is solely
+     the steward of the License text; it does not act
+     on behalf of any Licensor, does not broker commercial
+     licenses, and will not respond to commercial-licensing
+     inquiries. Directing an application to the
+     Datacustodia Dataset License organization does not
+     satisfy Section 4(c)(1) and does not toll or extend
+     any deadline under Section 4.
 
 ================================================================
             SECTION 5 -- ATTRIBUTION REQUIREMENTS
