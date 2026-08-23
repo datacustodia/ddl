@@ -1,4 +1,4 @@
-﻿# Contributing to DDL-v1
+# Contributing to DDL-v1
 
 Thank you for your interest in contributing to the Datacustodia
 Dataset License, Version 1 (DDL-v1) project. This document
@@ -323,3 +323,128 @@ in both.
 
 Thank you for helping make DDL-v1 clearer, more accurate,
 and more accessible.
+
+
+---
+
+## 9. Physical / Engineering Enforcement
+
+The rules in Section 3 are not merely procedural. The
+canonical repository is configured so that **non-core
+contributors physically cannot open a pull request** against
+the protected branches. This is enforced at the
+infrastructure level, not just in policy.
+
+### 9.1 How it is enforced
+
+The repository uses GitHub branch-protection and code-owner
+rules configured in `.github/CODEOWNERS` and the repository
+settings. Specifically:
+
+  - **`.github/CODEOWNERS`** lists the core developer(s) as
+    the required reviewers for every file in the canonical
+    repository (including `licenses/License.txt`,
+    `licenses/LastestLicense.txt`, `README.md`,
+    `CONTRIBUTING.md`, `docs/`, `.github/` and the
+    translations under `licenses/i18n/`).
+
+  - **Branch protection** on the default branch `master` 
+  requires:
+
+      - at least one (or, for substantive changes, two)
+        approving reviews from the listed code owners
+        before a pull request can be merged;
+
+      - all status checks (the docs build, link checks, etc.)
+        to pass before a pull request can be merged;
+
+      - linear history (no direct pushes; all changes must
+        come through a pull request); and
+
+      - dismissal of stale approving reviews when new
+        commits are pushed.
+
+  - **Restriction of who can push** to the protected branch:
+    the protected branch is limited to the core-developer
+    team. Other contributors, even with `write` access to
+    the repository, cannot push directly to the protected
+    branch.
+
+  - **Required status checks** include the documentation
+    build (`.github/workflows/docs.yml`), which must pass
+    before any merge.
+
+### 9.2 What this means for non-core contributors
+
+In practice this means:
+
+  - A non-core contributor **cannot** open a pull request
+    that reaches the protected branch. Even if they fork the
+    repository and open a pull request from their fork, the
+    branch-protection rules will require an approval from a
+    code owner, and the code owners are core developers.
+
+  - A non-core contributor **cannot** push directly to the
+    canonical repository's protected branch. Such a push
+    will be rejected by GitHub.
+
+  - A non-core contributor **cannot** bypass code review by
+    creating their own branch off an old commit, opening a
+    pull request, and self-approving it. Branch protection
+    prevents self-approval by non-code-owners.
+
+### 9.3 Why the physical enforcement matters
+
+Without physical enforcement, a single human mistake — a
+core developer clicking "Merge" too quickly, a misconfigured
+webhook, a compromised account — could push an unauthorized
+change into the License text. Because DDL-v1 is a legal
+instrument, even a transient incorrect state could mislead
+downstream users.
+
+Physical enforcement makes the rules **fail-closed**: if
+any link in the chain is missing, the change does not
+land. The chain is:
+
+  1. A core developer opens the pull request.
+  2. CODEOWNERS requires an approving review from another
+     core developer.
+  3. Branch protection requires the approving review and
+     passing status checks.
+  4. The merge is performed by a core developer with merge
+     rights on the protected branch.
+
+Every step is automated and cannot be skipped by a
+non-core contributor.
+
+### 9.4 Branch and fork policy
+
+  - Direct pushes to the protected branch are **disabled**
+    for everyone, including core developers. Core developers
+    must also use pull requests.
+  - Force pushes are **disabled** on the protected branch.
+  - Branch deletion is **disabled** on the protected
+    branch.
+  - Forks may be created by anyone, but pull requests from
+    forks are subject to the same review rules.
+
+### 9.5 What to do if the rules block legitimate work
+
+If you are a non-core contributor and the rules appear to
+block legitimate work, that is by design. Do not attempt to
+circumvent the rules. Instead:
+
+  1. Open an issue describing what you want to do.
+  2. Wait for a core developer to pick it up.
+  3. Cooperate with the core developer to draft the change.
+
+This is not a workaround for the rules; it is the rules.
+
+### 9.6 Repository administrators
+
+The Licensor is the only repository administrator.
+Repository administrators retain the technical ability to
+override branch-protection rules in an emergency, ~~but any
+override is treated as a release-management event and is
+recorded in `CHANGELOG.md` (or the equivalent revision
+history)~~ TODO along with its rationale.
