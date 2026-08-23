@@ -1,4 +1,4 @@
-﻿# Datacustodia Dataset License Version 1 (DDL-v1)
+# Datacustodia Dataset License Version 1 (DDL-v1)
 
 This repository hosts the **Datacustodia Dataset License, Version 1
 (DDL-v1)**, an open, non-commercial data license authored and
