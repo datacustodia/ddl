@@ -1,4 +1,4 @@
-﻿---
+---
 name: License Bug Report
 about: Report a bug, inconsistency or ambiguity in the License text
 title: "[license] "

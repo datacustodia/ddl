@@ -1,4 +1,4 @@
-﻿---
+---
 name: Documentation Bug Report
 about: Report a bug, typo, broken link or rendering issue in the documentation
 title: "[doc] "
