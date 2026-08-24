@@ -128,47 +128,5 @@ discrepancy, the original English text in
 [`licenses/License.txt`](licenses/License.txt) prevails (see
 Section 21(c) of the License).
 
-### Contributing a translation
+If you would like to contribute a new translation or improve an existing one, see [CONTRIBUTING.md](CONTRIBUTING.md), Section 4 (Translating the License), which contains the directory layout, the source-text requirement, the translation requirements, the translation workflow, and the scope of work. Remember that only **core developers** may open pull requests; external contributors must file an issue first.
 
-To add or improve a translation of DDL-v1:
-
-  1. Create a new directory under `licenses/i18n/` using the
-     appropriate BCP 47 / ISO 639-1 language tag (for example
-     `de_DE` for German in Germany, `fr_FR` for French in France,
-     `ja_JP` for Japanese in Japan).
-  2. Place the translation as `License.v1.txt` inside that
-     directory.
-  3. The translation must:
-
-       - be derived from the **latest official release** of
-         `licenses/License.txt`, not from any sub-version (see
-         Section 6(c) of `licenses/LastestLicense.txt`);
-
-       - preserve the **structure** of the License (Preamble,
-         Sections 1 through 21, Annexes A and B, closing banner);
-
-       - leave capitalized defined terms such as `Licensor`,
-         `Licensed Material`, `Licensed Rights`, `Adapted
-         Material`, `Attribution`, `Commercial Use`,
-         `Non-Commercial Purpose`, `Publicly Released Usage
-         Scenario`, `Sui Generis Database Rights` and `You`
-         untranslated, or transliterate them consistently; and
-
-       - be clearly marked at the top of the file as a
-         non-authoritative translation of DDL-v1, with a pointer
-         to the authoritative English text.
-
-  4. Add an entry to the table above and link to the new file.
-
-### Translation scope
-
-The translation should cover all of:
-
-  - the Preamble;
-  - Sections 1 through 21;
-  - Annex A (Approved Attribution Formats);
-  - Annex B (Compatibility Notes); and
-  - the closing banner.
-
-Plain-language pages under `docs/` may also be translated;
-contributions are welcome via the normal change process.
