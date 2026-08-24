@@ -5,7 +5,7 @@
     - [ ] zh_HK
     - [X] en_US
     - [ ] en_GB
-    - [ ] ja_JP
+    - [X] ja_JP
     - [ ] ko_KR
     - [ ] de_DE
     - [ ] fr_FR
@@ -16,7 +16,7 @@
 - [X] zh_TW's codeowner
 - [ ] zh_HK's codeowner
 - [ ] en_GB's codeowner
-- [ ] ja_JP's codeowner
+- [X] ja_JP's codeowner
 - [ ] ko_KR's codeowner
 - [ ] de_DE's codeowner
 - [ ] fr_FR's codeowner
