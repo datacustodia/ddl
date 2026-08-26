@@ -1,5 +1,16 @@
 # Pull Request
 
+> **Important**: Only **core developers** of the DDL-v1
+> project may open a pull request against the canonical
+> repository. If you are not a core developer, please file
+> an issue instead (see [`CONTRIBUTING.md`](../../CONTRIBUTING.md),
+> Section 2). A core developer will then sponsor, prepare,
+> and open the pull request on your behalf.
+>
+> This rule exists to protect the integrity of the License
+> text. Most contributors do not need to open a pull request
+> to be heard: an issue is enough. A core developer will
+> carry the proposal from issue to merge.
 
 ## Sponsor (core developer)
 

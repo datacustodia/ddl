@@ -1,0 +1,155 @@
+name: Spam-Blocker
+
+# This workflow enforces CONTRIBUTING.md Section 3: only
+# core developers may open pull requests against the
+# canonical repository. The DDL-v1 project publishes a
+# normative legal instrument; pull requests are a
+# release-management action, not a casual contribution
+# channel. External contributors must file an issue and
+# wait for a core developer to sponsor the pull request.
+
+"on":
+  pull_request:
+    types: [opened, reopened]
+    # Only run on pull requests targeting the protected
+    # branch (the canonical release branch). Forks are
+    # covered automatically because pull_request events
+    # fire for both first-party and fork branches.
+    branches: [master]
+
+  # Allow core developers to re-run the bot manually, e.g.
+  # after adding a new core developer to CODEOWNERS, or
+  # to confirm a previously-missed run.
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: "Pull request number to re-check"
+        required: false
+        type: string
+# Least-privilege token. The bot needs to read CODEOWNERS,
+# run the Python script, and (when the PR is non-core)
+# post a comment and close the PR. Each step that talks
+# to the GitHub API grants only the permission it needs.
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+
+# Don't pile up concurrent runs: if multiple PRs are
+# opened in quick succession, run them one at a time.
+# This also prevents the bot from racing with itself.
+concurrency:
+  group: spam-blocker
+  cancel-in-progress: false
+jobs:
+  check:
+    name: Check PR authorization
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # The script reads CODEOWNERS and writes a single
+      # JSON payload to stdout. We capture stdout via
+      # ``outputs.payload`` so the next job can act on it
+      # without re-running the parser.
+      - name: Run authorization check
+        id: check
+        env:
+          PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          PR_TITLE: ${{ github.event.pull_request.title }}
+          REPOSITORY: ${{ github.repository }}
+          ACTION: check
+        run: |
+          python -m scripts.check_pr_authorization
+
+      # Surface the result in the run log so a human can
+      # audit what the bot decided.
+      - name: Echo result
+        if: always()
+        run: |
+          echo "PR author: ${{ steps.check.outputs.payload }}"
+
+
+  apply:
+    name: Apply bot action
+    needs: check
+    runs-on: ubuntu-latest
+    if: needs.check.outputs.payload != ''
+    steps:
+      - name: Apply label
+        env:
+          PAYLOAD: ${{ needs.check.outputs.payload }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          python -c "import json, os, sys; \
+            payload = json.loads(os.environ['PAYLOAD']); \
+            label = payload.get('label'); \
+            print('Label:', label)"
+
+      - name: Close PR and post comment
+        if: needs.check.outputs.payload != '' && contains(needs.check.outputs.payload, '"action":"close-and-comment"')
+        env:
+          PAYLOAD: ${{ needs.check.outputs.payload }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python -c "
+          import json, os, subprocess, sys
+          payload = json.loads(os.environ['PAYLOAD'])
+          action = payload.get('action')
+          if action != 'close-and-comment':
+              sys.exit(0)
+          pr = os.environ['PR_NUMBER']
+          token = os.environ['GH_TOKEN']
+          repo = os.environ.get('GITHUB_REPOSITORY', '')
+          # Post comment
+          subprocess.run([
+              'gh', 'api', '--method', 'POST',
+              f'repos/{repo}/issues/{pr}/comments',
+              '-f', f'body={payload[\"comment\"]}'
+          ], check=True)
+          # Add label
+          label = payload.get('label')
+          if label:
+              subprocess.run([
+                  'gh', 'api', '--method', 'POST',
+                  f'repos/{repo}/issues/{pr}/labels',
+                  '-f', f'labels[]={label}'
+              ], check=True)
+          # Close PR
+          subprocess.run([
+              'gh', 'api', '--method', 'PATCH',
+              f'repos/{repo}/pulls/{pr}',
+              '-f', 'state=closed'
+          ], check=True)
+          "
+
+      - name: Apply authorized label
+        if: needs.check.outputs.payload != '' && contains(needs.check.outputs.payload, '"action":"label-only"')
+        env:
+          PAYLOAD: ${{ needs.check.outputs.payload }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python -c "
+          import json, os, subprocess, sys
+          payload = json.loads(os.environ['PAYLOAD'])
+          if payload.get('action') != 'label-only':
+              sys.exit(0)
+          pr = os.environ['PR_NUMBER']
+          repo = os.environ.get('GITHUB_REPOSITORY', '')
+          label = payload.get('label')
+          if label:
+              subprocess.run([
+                  'gh', 'api', '--method', 'POST',
+                  f'repos/{repo}/issues/{pr}/labels',
+                  '-f', f'labels[]={label}'
+              ], check=True)
+          "
