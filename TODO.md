@@ -6,9 +6,9 @@
     - [X] en_US
     - [ ] en_GB
     - [X] ja_JP
-    - [ ] ko_KR
+    - [ ] ko_KR  (#2)
     - [ ] de_DE
-    - [ ] fr_FR
+    - [ ] fr_FR  (#3)
     - [ ] es_ES
     - [ ] pt_BR
     - [ ] ru_RU
