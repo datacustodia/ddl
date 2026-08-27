@@ -40,3 +40,17 @@ Before publicly releasing anything that includes DDL-v1 material:
       in place).
 - [ ] The verbatim text of `licenses/License.txt` ships with the
       redistribution.
+
+<script src="https://giscus.app/client.js"
+        data-repo="datacustodia/ddl"
+        data-repo-id="R_kgDOT-ozjQ"
+        data-category-id="DIC_kwDOT-ozjc4DERel"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
