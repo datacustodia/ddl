@@ -62,9 +62,7 @@ When opening an issue, please use the appropriate template
 and include:
 
   1. a short, descriptive title;
-  2. the **type** of issue (`bug`, `clarification`,
-     `documentation`, `translation`, `enhancement`,
-     `question`);
+  2. the **type** of issue (`bug`, `doc`, `i18n`, `licenses`);
   3. the **Section** or page the issue refers to (e.g.
      `Section 6(c)`, `README.md`, `docs/faq.md`);
   4. a clear **description** of the problem or request;

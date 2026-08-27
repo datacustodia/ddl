@@ -1,5 +1,5 @@
 +===================================================+
-|  Datacustodia Dataset License Version 1 (DDL-v1)  |
+|  Datacustodia Dataset License Lastest Version     |
 +===================================================+
 
 Version: 1.3
