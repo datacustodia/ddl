@@ -2,6 +2,10 @@
 |  Datacustodia Dataset License Lastest Version     |
 +===================================================+
 
+NOTICE: The license applied to this file is the latest‑release version, 
+not the stable version. Should you wish to use this license in your project, 
+please use the latest stable release.
+
 Version: 1.3
 
 This Datacustodia Dataset License, Version 1 (DDL-v1) (the "License")
