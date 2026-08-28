@@ -24,7 +24,7 @@ The following behaviors are strictly prohibited:
 ## 4. Reporting Violations
 If you experience or witness any violation of this Code of Conduct, please report it privately to the project maintainers:
 
-  - **Primary contact:** Evan Yang `<quantbit@126.com>`
+  - **Primary contact:** `<ddl-org@tutamail.com>`
   - **Subject line:** please prefix with `[CoC]` so reports can be triaged promptly.
 
 Reports are kept confidential to the extent compatible with a thorough investigation. The maintainers will:

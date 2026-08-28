@@ -280,10 +280,6 @@ list is maintained in `CONTRIBUTORS`. Criteria include:
   - familiarity with the License text and its intent; and
   - endorsement by at least one existing core developer.
 
-If you would like to be considered, open an issue using the
-`core-developer-nomination` template and address the
-criteria above.
-
 ---
 
 ## 6. Reporting Security Issues
@@ -293,6 +289,8 @@ or the integrity of the License text should be reported
 **privately** to the Licensor. Do not file a public issue
 until the Licensor has acknowledged the report and a fix
 has been prepared.
+
+Email: `<ddl-org@tutamail.com>`
 
 ---
 
