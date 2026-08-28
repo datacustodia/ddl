@@ -8,22 +8,22 @@ without re-parsing the script output.
 
 Standard fields:
 
-  - ``action``          : ``"close-and-comment"``,
-                          ``"label-only"`` or ``"error"``.
-  - ``authorized``      : ``True`` iff the action should
-                          proceed.
-  - ``author``          : GitHub login of the PR author.
-  - ``core_developers`` : sorted list of core developers.
-  - ``is_core_developer``: ``author in core_developers``.
-  - ``message``         : human-readable explanation that
-                          workflows may echo into the run log.
-  - ``comment``         : optional Markdown body for
-                          posting on the PR (when action is
-                          ``"close-and-comment"``).
-  - ``label``           : optional label to apply.
-  - ``comment_marker``  : optional HTML comment marker used
-                          by workflows to detect a bot-managed
-                          comment when re-running.
+- ``action``          : ``"close-and-comment"``,
+                        ``"label-only"`` or ``"error"``.
+- ``authorized``      : ``True`` iff the action should
+                        proceed.
+- ``author``          : GitHub login of the PR author.
+- ``core_developers`` : sorted list of core developers.
+- ``is_core_developer``: ``author in core_developers``.
+- ``message``         : human-readable explanation that
+                        workflows may echo into the run log.
+- ``comment``         : optional Markdown body for
+                        posting on the PR (when action is
+                        ``"close-and-comment"``).
+- ``label``           : optional label to apply.
+- ``comment_marker``  : optional HTML comment marker used
+                        by workflows to detect a bot-managed
+                        comment when re-running.
 
 The class ``Payload`` is a thin wrapper around ``dict`` that
 guards against accidental field-name typos via ``__getattr__``.
