@@ -272,7 +272,7 @@ consult a qualified lawyer in the relevant jurisdiction.
 ## 5. Becoming a Core Developer
 
 Core developers are appointed by the Licensor. The current
-list is maintained in `CONTRIBUTORS`. Criteria include:
+list is maintained in `CORE_CONTRIBUTORS`. Criteria include:
 
   - sustained, high-quality contributions over time;
   - demonstrated judgement on legal, normative and
