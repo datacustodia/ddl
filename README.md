@@ -1,5 +1,7 @@
 # Datacustodia Dataset License Version 1 (DDL-v1)
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W6X42B1NF9)
+
 This repository hosts the **Datacustodia Dataset License, Version 1
 (DDL-v1)**, an open, non-commercial data license authored and
 maintained by the Datacustodia Dataset License organization. It
